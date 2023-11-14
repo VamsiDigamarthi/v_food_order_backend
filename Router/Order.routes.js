@@ -4,7 +4,7 @@ import * as orders from "../Controller/OrdersController.js";
 
 import * as client from "../Controller/ClientController.js";
 
-import { verifyToken } from "../Middleware/ValidateToken";
+import { verifyToken } from "../Middleware/ValidateToken.js";
 
 const router = Router();
 

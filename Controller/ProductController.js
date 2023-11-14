@@ -1,6 +1,6 @@
 import { response } from "express";
 
-import pool from "../Database.mysql.js";
+import pool from "../Database/mysql.js";
 
 export const addNewProduct = async (req, res = response) => {
   try {
